@@ -5,8 +5,16 @@ function Header() {
     <header>
       <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
         <div className="container">
-          {/* Logo / Título */}
-          <Link className="navbar-brand" to="/">HZ Venta</Link>
+
+          {/* Logo + Nombre */}
+          <Link className="navbar-brand d-flex align-items-center" to="/">
+            <img
+              src="/imagenes/logo.png"
+              alt="Logo DZ"
+              style={{ width: '40px', height: '40px', marginRight: '10px' }}
+            />
+            <span className="fw-bold">Darío Hernández</span>
+          </Link>
 
           {/* Botón hamburguesa (mobile) */}
           <button
@@ -38,6 +46,7 @@ function Header() {
               </li>
             </ul>
           </div>
+
         </div>
       </nav>
     </header>

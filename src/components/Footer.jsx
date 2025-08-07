@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer className="bg-dark text-white py-4 mt-auto">
       <div className="container text-center">
-        <p className="mb-3">© {new Date().getFullYear()} HZ Venta - Todos los derechos reservados</p>
+        <p className="mb-3">© {new Date().getFullYear()} HD Compra y Venta - Todos los derechos reservados</p>
 
         <div className="d-flex flex-column flex-sm-row justify-content-center align-items-center gap-4 fs-4">
           <a

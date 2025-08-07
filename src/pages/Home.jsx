@@ -1,7 +1,7 @@
 function Home() {
   return (
     <div className="container mt-5">
-      <h2 className="text-center mb-4">Bienvenido a HZ Venta</h2>
+      <h2 className="text-center mb-4">Bienvenido a HD  Compra y Venta </h2>
       <p className="lead text-center">
         Somos una plataforma dedicada a la venta y cotización de vehículos. Explorá nuestro catálogo o cotizá tu auto fácilmente.
       </p>
